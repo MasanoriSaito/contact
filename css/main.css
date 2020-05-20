@@ -128,7 +128,13 @@ body {
 
 @media screen and (max-width: 1169px) {
   .wrap {
-    padding: 3rem 1rem;
+    padding: 3rem 10%;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .wrap {
+    padding: 3rem 2rem;
   }
 }
 
@@ -224,6 +230,83 @@ header .pcMenu ul li {
   text-align: center;
   padding: 1rem 0;
   border: 1px solid #EEE;
+}
+
+#contact p {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 40px;
+}
+
+@media screen and (max-width: 1169px) {
+  #contact p {
+    font-size: 1.3rem;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  #contact p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+  }
+}
+
+form {
+  font-size: 1.4rem;
+}
+
+@media screen and (max-width: 1169px) {
+  form {
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  form {
+    font-size: 1.1rem;
+  }
+}
+
+form label {
+  margin-bottom: 0.5rem;
+}
+
+form input {
+  margin-bottom: 2rem;
+}
+
+form span {
+  font-size: 1.1rem;
+  margin-left: 1rem;
+  padding: 1px 3px;
+  color: white;
+  background-color: #FF0000;
+}
+
+@media screen and (max-width: 1169px) {
+  form span {
+    font-size: 0.9rem;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  form span {
+    font-size: 0.8rem;
+  }
+}
+
+form button {
+  margin-top: 2rem;
+}
+
+.brsp {
+  display: none;
+}
+
+@media screen and (max-width: 760px) {
+  .brsp {
+    display: block;
+  }
 }
 
 footer {

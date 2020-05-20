@@ -1,0 +1,53 @@
+#contact {
+    p {
+        text-align: center;
+        font-size: 1.5rem;
+        margin-bottom: 40px;
+        @include tab {
+            font-size: 1.3rem;
+        }
+        @include sp {
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+        }
+    }
+}
+
+form {
+    font-size: 1.4rem;
+    @include tab {
+        font-size: 1.2rem;
+    }
+    @include sp {
+        font-size: 1.1rem;
+    }
+    label {
+        margin-bottom: 0.5rem;
+    }
+    input {
+        margin-bottom: 2rem;
+    }
+    span {
+        font-size: 1.1rem;
+        margin-left: 1rem;
+        padding: 1px 3px;
+        color: white;
+        background-color: #FF0000;
+        @include tab {
+            font-size: 0.9rem;
+        }
+        @include sp {
+            font-size: 0.8rem;
+        }
+    }
+    button {
+        margin-top: 2rem;
+    }
+}
+
+.brsp {
+    display: none;
+    @include sp {
+        display: block;
+    }
+}
